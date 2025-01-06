@@ -239,8 +239,8 @@ if cont:
 			with col2:
 				st.write("#### Rimodulazione")
 				st.write("Profitto", f'{hyp_increment:.2%}'+" ("+str(hyp_profitto)+")")
-				st.write("Perdita", f'{hyp_decrement:.2%}'+" ("+str(hyp_perdita)+")")
+				st.write("Perdita ", f'{hyp_decrement:.2%}'+" ("+str(hyp_perdita)+")")
 			with col3:
 				st.write("#### Δ")
-				st.write(f'{(delta_increment):.2%}')
-				st.write(f'{(delta_decrement):.2%}')
+				st.write("Profitto", f'{(delta_increment):.2%}')
+				st.write("Perdita ", f'{(delta_decrement):.2%}')
